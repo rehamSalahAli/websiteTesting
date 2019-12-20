@@ -127,3 +127,98 @@ padding-top: 4rem;
     .right{
         float:"right";
     }
+
+
+    /* services Section */
+    #services .servicebox{
+        background-color: #fff;
+        padding: 2.5rem 1.3rem;
+        border-radius: 1rem;
+        margin-bottom: 3rem;
+        box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+    }
+    #services h3{
+        font-size: 3rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #1e1e1e;
+        margin-bottom: .5rem;
+    }
+    #services .sline{
+        width: 40px;
+        height: 5px;
+        background-color: #0078ff;
+        margin: 0 auto;
+    }
+    #services .servicebox:hover .serviceicon i{
+    color: #fff;
+    background-color: #0078ff;
+    box-shadow: 0 0 0 10px #abd3ff;
+    }
+    #services .serviceicon{
+        margin-bottom: 1rem;
+        color: #1e1e1e;
+    }
+    .serviceicon i{
+        transition: all 500ms ease;
+        font-size: 3.5rem;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        line-height: 1.8;
+        margin: 0 auto;
+        text-align: center;
+        box-shadow: 0 0 0 10px #0078ff;
+    }
+    .servicebox h2{
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        text-align: center;
+        padding: .4rem 0;
+        color: #1e1e1e;
+        margin-bottom: .5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+    
+    
+    
+    /* counter */
+    .counter{
+        background-image: url(../img/counters-bg.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
+        position: relative;
+        padding: 8rem 0;
+        box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+    }
+    .counter .overlay{
+        position: absolute;
+        top: 0;
+        left: 0px;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        opacity: .7;
+        background-color: #0078ff;
+    }
+    .counter .counterbox{
+        color: #fff;
+        text-align: center;
+    }
+    .counterbox .countericon{
+        margin-bottom: 1rem;
+    }
+    .countericon i{
+        height: 60px;
+        width: 60px;
+        line-height: 2.2;
+        box-shadow: 0 0 0 10px #cde1f8;
+        font-size: 1.7rem;
+        border-radius: 50%;
+        margin: 0 auto;
+        text-align: center;
+    }
+  
